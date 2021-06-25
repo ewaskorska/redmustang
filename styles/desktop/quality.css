@@ -1,0 +1,68 @@
+.background-wrapper {
+    background-image: url("../../sources/background/quality.jpg");
+    height: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tradition {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: fit-content;
+}
+
+.tradition > img {
+    width: 50vw;
+    height: 80vh;
+    object-fit:cover;
+}
+
+.tradition__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+    padding: 5vh 10vw 5vh 10vw; 
+}
+
+.tradition__content > * {
+    margin-top: 1.5vw;
+}
+
+.tradition__content > p {
+    margin-bottom: 10vh;
+}
+
+.about-us {
+    display: flex;
+    flex: row nowrap;
+    justify-content: left;
+    align-items: center;
+}
+
+.about-us > img {
+    max-width: 50px;
+    max-height: 20px;
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+}
+
+.specials__wrapper {
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+.decoration {
+    position: relative;
+    top: 1.2vw;
+    left: -6vw;
+    width: 6vw;
+}
+
+.specials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+    color: white;
+}
+
+/* .row {
+    outline: 2px solid green;
+}
+
+.container {
+    outline: 2px solid purple;
+}
+
+.cell {
+    outline: 2px solid gold;
+} */
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font: 4.5vw 'Times New Roman', serif;
+    font-weight: bolder;
+    line-height: 1;
+    padding-bottom: 0.5em;
+}
+
+h2 {
+    font: 3vw 'Times New Roman', serif;
+    font-weight: bolder;
+    line-height: 1;
+    padding-bottom: 0.5em;
+}
+
+h4 {
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 1.2vw;
+    line-height: 1.5;
+}
+
+p {
+    font: 1.2vw 'Times New Roman', serif;
+    line-height: 1.5;
+}

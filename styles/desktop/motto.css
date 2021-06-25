@@ -1,0 +1,43 @@
+.motto {
+    background-image: url("../../sources/background/motto.jpg");
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 5vw;
+}
+
+.motto .container {
+    text-align: center;
+}
+
+.motto h2.container {
+    margin-top: 4vw;
+}
+
+.motto h4.container {
+    font-size: 1.1vw;
+}
+
+.cool-writting {
+    width: 40vw;
+    height: 16vw;;
+}
+
+.cool-writting > * {
+    position: relative;
+    top: -5vw;
+}
+
+img.decoration.reverse {
+    top: -1vw;
+    left: 19vw;
+    transform: scaleX(-1);
+}
+
+.cool-writting h1 {
+    font-size: 7vw;
+    padding-bottom: 0;
+}
+.motto p {
+    max-width: 50vw;
+}
