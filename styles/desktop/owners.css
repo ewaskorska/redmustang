@@ -2,6 +2,11 @@
     position: relative;
     text-align: center;
     color: white;
+    display: flex;
+}
+
+.background-img {
+    width: 100vw;
 }
 
 .owners__paragraph {

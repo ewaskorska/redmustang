@@ -3,18 +3,6 @@ body, html {
     color: white;
 }
 
-/* .row {
-    outline: 2px solid green;
-}
-
-.container {
-    outline: 2px solid purple;
-}
-
-.cell {
-    outline: 2px solid gold;
-} */
-
 a {
     color: white;
     text-decoration: none;
@@ -38,6 +26,13 @@ h4 {
     font-family: Verdana,Geneva,sans-serif;
     font-size: 1.2vw;
     line-height: 1.5;
+}
+
+h6 {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.1vw;
+    line-height: 1.5;
+    font-weight:500;
 }
 
 p {
