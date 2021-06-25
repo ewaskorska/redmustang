@@ -1,0 +1,36 @@
+.owners {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.owners__paragraph {
+    position: absolute;
+    bottom: 12vw;
+    right: 5vw;
+    font-size: 1vw;
+    letter-spacing: 1px;
+}
+
+.owners__signature {
+    position: absolute;
+    bottom: 5vw;
+    right: 7.5vw;
+    width: 24vw;
+}
+
+img.decoration.signature {
+    position: absolute;
+    left: 92vw;
+    top: 40vw;
+    width: 5vw;
+    transform: rotate(180deg);
+
+}
+img.decoration.pepper {
+    position: absolute;
+    left: 67vw;
+    top: 5vw;
+    width: 4.5vw;
+    transform: rotate(80deg);
+}
